@@ -6,10 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent implements OnInit {
-  private verifyCodeRequired: Boolean;
 
   constructor() {
-    this.verifyCodeRequired = false;
   }
 
   ngOnInit() {
